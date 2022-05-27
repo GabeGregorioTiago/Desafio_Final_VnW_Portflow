@@ -15,7 +15,7 @@ header{
     position: fixed;
     background-color: white;
     width: 100%;
-    
+  
     
 
 }
@@ -56,7 +56,8 @@ header li{
     font-size:3vh;
     opacity: 0.2;
     cursor:pointer;
-    width:72%;
+    width:75%;
+  
 
 }
 header li:hover{
@@ -67,47 +68,50 @@ header li:hover{
   
 }
 main{
-    padding-top:17vh;
-    margin-bottom:7vh;
-}
-.box--section--one{
-  background-image: url('./imagens/laranja-azul-recorte.png');  
-  background-repeat: no-repeat;
-    background-size: cover;
-   
-    width:100%;
-    height:90vh;
-    top:20vh;
-}
-h1{
-    color:#FFFFFF;
-    font-weight:700px;
-    font-size:10vh;
-    margin-left:5vw;  
-    padding-top:40vh;
+    padding-top:5vh;
 
-}
-button{
-    width: 14vw;
-    height: 10vh;
-    font-size:4vh;
-    background-color: transparent;
-    margin-left: 4vw; 
-    margin-top:5vh;
-    color:#FFFFFF;
-    border: transparent;
-    opacity: 0.4;
-
-}
-button:hover{
-    font-weight: 700;
-    opacity:1;
-	transition:ease-in-out;
-    border:solid;
   
 }
 
-.box--section--two{
+.box--section--one{
+  
+    background-image: url('./imagens/laranjaazulrecorte@2x.png');  
+    background-repeat: no-repeat;
+      background-size: cover;
+    
+      width:100%;
+    height:90vh;
+    
+    
+  }
+  h1{
+      color:#FFFFFF;
+      font-weight:700px;
+      font-size:10vh;
+      margin-left:5vw;  
+      padding-top:40vh;
+  
+  }
+  main button{
+      width: 14vw;
+      height: 10vh;
+      font-size:4vh;
+      background-color: transparent;
+      margin-left: 4vw; 
+      margin-top:5vh;
+      color:#FFFFFF;
+      border: transparent;
+      opacity: 0.4;
+  
+  }
+  main button:hover{
+      font-weight: 700;
+      opacity:1;
+      transition:ease-in-out;
+      
+    
+  }
+  .box--section--two{
     background-color: white;
     display: flex;
     flex-wrap: wrap;
@@ -119,10 +123,24 @@ button:hover{
     margin-left:8.5vw;
     margin-top:10vh;
 
+
+}
+.box--section--two figure{
+   
+      overflow: hidden;
+      width:20vw;
+    height:40vh;
+
 }
 .box--section--two img{
     width:20vw;
     height:40vh;
+}
+.box--section--two img:hover{
+    width:21vw;
+    height:41vh;
+    transition:ease-in-out;
+    cursor: pointer;
 }
 footer{
     background-color:#DCDCDC;
@@ -181,15 +199,21 @@ footer p{
     width:55%;
     
 }
-@media (max-width:500px){
+footer button{
+    display:none;
+}
+@media (max-width:600px){
     
     header{
-        position:unset;
-        height:7vh;
-        border:solid;
         display: flex;
         align-items: flex-start;
-         justify-content: start;
+        
+        position:unset;
+        height:100%;
+        width:100%;
+       
+        
+     
     }
     .menu--One{
       display: none;
@@ -200,33 +224,169 @@ footer p{
         display: flex;
         align-items: center;
         justify-content:center;
-     background-color:black;
+        background-color:black;
         height:7vh;
         width:30vw;
-        border:solid  blue;
-        margin-left:0vw;
+        margin-left:-3vw;
+      
+      
      
     }
     .menu--burguer img{
         height:5vh;
         width:6vw;
+        
     } 
     header h2{
-       border: solid;
-       margin-right:20vw;
+      
+        width:60%;
+        margin-top:1vh;
      }
      main{
-         background-color: blue;
-         display: flex;
-         flex-direction: column;
-         align-items: flex-start;
-   
-     }
+        padding-top:0vh;
+      
+       
+    }
      .box--section--one{
-         background-image: none;
-         background-color: aqua;
-         border:solid;
+  
+        background-image: url('./imagens/laranjaazulrecorte@3x.png');  
+        background-repeat: no-repeat;
+          background-size: cover;
+           
+          width:98%;
+          height:150vh;
          
          
+          
+        
+      }
+      
+      h1{
+          
+          padding-top: 0vh;
+          word-wrap: break-word;
+          font-size:9.5vh;
+          width:230px;
+           padding-top:90vh;
+           margin-left:10vw;
+          
+          
+      }
+      main button{
+        
+          width:150px;
+          margin-left:15vw;
+          top:90vh;
+       
+         
+      } 
+      .box--section--two{
+  
+        height:800vh;
+         display: flex;
+         flex-direction:column;
+        
+         flex-wrap: wrap;
+      }
+      .box--section--two figure{
+        
+
+         overflow: hidden;
+           width:60vw;
+          height:60vh;
+
+      }
+      .box--section--two img{
+         width:60vw;
+         height:60vh;
+      }
+      .box--section--two img:hover{
+        width:61vw;
+        height:61vh;
+        transition:ease-in-out;
+        cursor: pointer;
+    }
+      footer{
+         
+          background-color: white;
+           display: flex;
+           flex-direction: column;
+           height:40vh;
+      }
+      footer figure{
+          
+          width: 60vw;
+          height: 10vh;
+          background-color:#7FDBD4;
+          margin-left:4vw;
+      }
+      .logo--Face{
+        width:1.8vw;
+         height:4vh;
      }
+     .logo--Twitter{
+         width:3.5vw;
+          height:4vh;
+      }
+     .logo--Insta{
+         width:4vw;
+          height:4vh;
+     }
+     .logo--Telegram{
+         width:4vw;
+          height:4vh;
+     }
+     .logo--whats{
+         width:4vw;
+          height:4vh;
+     }
+     .logo--Youtube{
+         width:5vw;
+         height:4vh;
+     }
+      footer section{
+          display: flex;
+         
+           height:30vh;
+           align-items: center;
+           width: 100%;
+      }
+      footer div{
+          display: flex;
+          flex-direction: column;
+         
+          width:45vw;
+          height:25vh;
+          word-wrap: break-word;
+      }
+      footer h4{
+          font-size:2.5vh;
+        
+          width:40%;
+      }
+      footer p{
+       
+        width:70%;
+      }
+      footer button{
+          display:flex;
+           justify-content: center;
+          align-items: center;
+          background-color: black;
+          opacity:0.85;
+          color:#707070;
+          width:15vw;
+          height:5vh;
+          font-size:2.5vh;
+          margin-bottom: 5vh;
+          margin-left: 1vw;
+
+      }
+
+      footer a{
+        color:#707070;
+        text-decoration: none;
+      }
+      
+    
 }
