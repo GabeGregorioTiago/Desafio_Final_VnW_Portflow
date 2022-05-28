@@ -266,7 +266,7 @@ footer button{
           padding-top: 0vh;
           word-wrap: break-word;
           font-size:9.5vh;
-          width:230px;
+          width:215px;
            padding-top:90vh;
            margin-left:10vw;
           
@@ -282,23 +282,60 @@ footer button{
       } 
       .box--section--two{
   
-        height:800vh;
+        height:700vh;
          display: flex;
+     
          flex-direction:column;
         
          flex-wrap: wrap;
       }
       .box--section--two figure{
-        
-
+       
          overflow: hidden;
-           width:60vw;
-          height:60vh;
+           width:80vw;
+          height:50vh;
 
       }
+      .image--one{
+         order:7;
+      }
+      .image--two{
+        order:2;
+     }
+     .image--three{
+        order:-1;
+     }
+     .image--four{
+         order:1;
+     }
+     .image--five{
+        order:-4;
+
+     }
+     .image--six{
+         order:1;
+     }
+     .image--seven{
+         order:0;
+     }
+     .image--eight{
+         order:8;
+     }
+     .image--nine{
+         order:2;
+     }
+     .image--ten{
+           order:9;
+     }
+     .image--eleven{
+         order:-2;
+     }
+     .image--twelve{
+         order:0;
+     }
       .box--section--two img{
-         width:60vw;
-         height:60vh;
+         width:80vw;
+         height:50vh;
       }
       .box--section--two img:hover{
         width:61vw;
@@ -306,6 +343,7 @@ footer button{
         transition:ease-in-out;
         cursor: pointer;
     }
+     
       footer{
          
           background-color: white;
@@ -315,34 +353,34 @@ footer button{
       }
       footer figure{
           
-          width: 60vw;
+          width: 80vw;
           height: 10vh;
           background-color:#7FDBD4;
           margin-left:4vw;
       }
       .logo--Face{
-        width:1.8vw;
-         height:4vh;
+        width:2.8vw;
+         height:5vh;
      }
      .logo--Twitter{
-         width:3.5vw;
-          height:4vh;
+         width:6vw;
+          height:5vh;
       }
      .logo--Insta{
-         width:4vw;
-          height:4vh;
+         width:6vw;
+          height:5vh;
      }
      .logo--Telegram{
-         width:4vw;
-          height:4vh;
+         width:5vw;
+          height:5vh;
      }
      .logo--whats{
-         width:4vw;
-          height:4vh;
+         width:5vw;
+          height:5vh;
      }
      .logo--Youtube{
-         width:5vw;
-         height:4vh;
+         width:9vw;
+         height:5vh;
      }
       footer section{
           display: flex;
@@ -363,6 +401,7 @@ footer button{
           font-size:2.5vh;
         
           width:40%;
+          
       }
       footer p{
        
@@ -379,7 +418,7 @@ footer button{
           height:5vh;
           font-size:2.5vh;
           margin-bottom: 5vh;
-          margin-left: 1vw;
+          margin-left: 16vw;
 
       }
 
