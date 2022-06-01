@@ -209,7 +209,7 @@ footer button{
         align-items: flex-start;
         
         position:unset;
-        height:100%;
+        height:5vh;
         width:100%;
        
         
@@ -225,8 +225,8 @@ footer button{
         align-items: center;
         justify-content:center;
         background-color:black;
-        height:7vh;
-        width:30vw;
+        height:5vh;
+        width:45vw;
         margin-left:-3vw;
       
       
@@ -238,9 +238,9 @@ footer button{
         
     } 
     header h2{
-      
+        font-size:4vh;
         width:60%;
-        margin-top:1vh;
+        margin-top:0.5vh;
      }
      main{
         padding-top:0vh;
@@ -266,8 +266,8 @@ footer button{
           padding-top: 0vh;
           word-wrap: break-word;
           font-size:9.5vh;
-          width:215px;
-           padding-top:90vh;
+          width:290px;
+           padding-top:85vh;
            margin-left:10vw;
           
           
@@ -338,8 +338,8 @@ footer button{
          height:50vh;
       }
       .box--section--two img:hover{
-        width:61vw;
-        height:61vh;
+        width:81vw;
+        height:51vh;
         transition:ease-in-out;
         cursor: pointer;
     }
@@ -359,28 +359,28 @@ footer button{
           margin-left:4vw;
       }
       .logo--Face{
-        width:2.8vw;
-         height:5vh;
+        width:3.5vw;
+         height:4.5vh;
      }
      .logo--Twitter{
          width:6vw;
-          height:5vh;
+          height:4.5vh;
       }
      .logo--Insta{
-         width:6vw;
-          height:5vh;
+         width:7vw;
+          height:4.5vh;
      }
      .logo--Telegram{
          width:5vw;
           height:5vh;
      }
      .logo--whats{
-         width:5vw;
-          height:5vh;
+         width:6vw;
+          height:4.5vh;
      }
      .logo--Youtube{
-         width:9vw;
-         height:5vh;
+         width:10vw;
+         height:4vh;
      }
       footer section{
           display: flex;
@@ -400,12 +400,13 @@ footer button{
       footer h4{
           font-size:2.5vh;
         
-          width:40%;
+          width:60%;
           
       }
       footer p{
-       
-        width:70%;
+       height:80%;
+        width:50vw;
+        font-size:1.6vh;
       }
       footer button{
           display:flex;
@@ -414,11 +415,11 @@ footer button{
           background-color: black;
           opacity:0.85;
           color:#707070;
-          width:15vw;
-          height:5vh;
+          width:20vw;
+          height:4vh;
           font-size:2.5vh;
-          margin-bottom: 5vh;
-          margin-left: 16vw;
+          margin-bottom:15vh;
+          margin-left:11vw;
 
       }
 
