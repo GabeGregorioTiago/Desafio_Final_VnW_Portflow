@@ -272,9 +272,9 @@ footer button{
           
           
       }
-      main button{
+      .box--section--one button{
         
-          width:150px;
+          width:200px;
           margin-left:15vw;
           top:90vh;
        
